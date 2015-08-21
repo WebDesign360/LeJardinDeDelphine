@@ -1,0 +1,49 @@
+/* Patterns */
+
+	.pattern-custom:after{
+		background: url(../images_custom/pattern-custom.png) repeat;
+		content:'';
+		width: 100%;
+		height: 100%;
+		top:0;
+		left:0;
+		position: absolute;
+	}
+
+
+/* Colors */
+
+	.colored{
+		color: #615142;
+	}
+
+/* Background Slider Images  */	
+	#slides .slides-container .image1{
+		background-image:url(../images_custom/slide1.jpg);
+	}
+
+	#slides .slides-container .image2{
+		background-image:url(../images_custom/slide2.jpg);
+	}
+	#slides .slides-container .image3{
+		background-image:url(../images_custom/slide3.jpg);
+	}	
+
+	#slides .slides-container .image4{
+		background-image:url(../images_custom/slide4.jpg);
+	}	
+	
+	#slides .slides-container .image5{
+		background-image:url(../images_custom/slide5.jpg);
+	}
+
+	#slides .slides-container .image6{
+		background-image:url(../images_custom/slide6.jpg);
+	}
+	#slides .slides-container .image7{
+		background-image:url(../images_custom/slide7.jpg);
+	}	
+
+	#slides .slides-container .image8{
+		background-image:url(../images_custom/slide8.jpg);
+	}
