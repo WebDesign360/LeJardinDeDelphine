@@ -11,10 +11,18 @@
 	}
 
 
-/* Colors */
+/* Fonts */
 
-	.colored{
-		color: #615142;
+	.dark{
+		color: #a7917b;
+	}
+		
+	.home-arrow span {
+	    color:black;
+	}
+	
+	.home-arrow span:hover {
+	    color:white;
 	}
 
 /* Background Slider Images  */	
@@ -47,3 +55,25 @@
 	#slides .slides-container .image8{
 		background-image:url(../images_custom/slide8.jpg);
 	}
+
+/* Logo Style */
+
+	.site-logo a.logo img{
+		max-height: 70px;
+	}
+	
+
+/* Footer */
+
+	.footer{
+		background: #847465;
+	}
+	
+	.footer p.copyright a{
+		color:black;
+	}
+	
+	.footer p.copyright a:hover{
+		color:white;
+	}
+
