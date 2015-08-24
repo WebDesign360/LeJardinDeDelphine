@@ -28,32 +28,41 @@
 /* Background Slider Images  */	
 	#slides .slides-container .image1{
 		background-image:url(../images_custom/slide1.jpg);
+		background-size:cover;
+		/*background-repeat:no-repeat;*/
 	}
 
 	#slides .slides-container .image2{
 		background-image:url(../images_custom/slide2.jpg);
+		background-size:cover;
 	}
 	#slides .slides-container .image3{
 		background-image:url(../images_custom/slide3.jpg);
+		background-size:cover;
 	}	
 
 	#slides .slides-container .image4{
 		background-image:url(../images_custom/slide4.jpg);
+		background-size:cover;
 	}	
 	
 	#slides .slides-container .image5{
 		background-image:url(../images_custom/slide5.jpg);
+		background-size:cover;
 	}
 
 	#slides .slides-container .image6{
 		background-image:url(../images_custom/slide6.jpg);
+		background-size:cover;
 	}
 	#slides .slides-container .image7{
 		background-image:url(../images_custom/slide7.jpg);
+		background-size:cover;
 	}	
 
 	#slides .slides-container .image8{
 		background-image:url(../images_custom/slide8.jpg);
+		background-size:cover;
 	}
 
 /* Logo Style */
