@@ -580,11 +580,11 @@ $(document).ready(function() {
 
 			// Map Coordination
 
-			var latlng = new google.maps.LatLng(41.862274,-87.661328);
+			var latlng = new google.maps.LatLng(44.7998831,10.3300756);
 
 			// Map Options
 			var myOptions = {
-				zoom: 15,
+				zoom: 17,
 				center: latlng,
 				mapTypeId: google.maps.MapTypeId.ROADMAP,
 				disableDefaultUI: true,
@@ -600,7 +600,7 @@ $(document).ready(function() {
 
 		  	// First Marker Coordination
 			
-			var myLatlng = new google.maps.LatLng(41.856774,-87.679928);
+			var myLatlng = new google.maps.LatLng(44.7998831,10.3300756);
 
 			// Your Texts 
 
@@ -609,12 +609,12 @@ $(document).ready(function() {
 			  '</div>'+
 			  '<h4>' +
 
-			  'Office 1'+
+			  'Le Jardin'+
 
 			  '</h4>'+
 			  '<p>' +
 
-			  'Your description is here.' +
+			  '...è qui!' +
 
 			  '</p>'+
 			  '</div>';
@@ -641,46 +641,6 @@ $(document).ready(function() {
 
 
 
-
-			 /* ========= Second Marker ========= */
-
-			 // Second Marker Coordination
-
-			 var myLatlngSecond = new google.maps.LatLng(41.863774,-87.639928);
-
-			 // Your Texts
-
-			 var contentStringSecond = '<div id="content">'+
-			  '<div id="siteNotice">'+
-			  '</div>'+
-			  '<h4>' +
-
-			  'Office 2'+
-
-			  '</h4>'+
-			  '<p>' +
-
-			  'Your description is here.' +
-
-			  '</p>'+
-			  '</div>';
-
-			  var infowindowSecond = new google.maps.InfoWindow({
-				  content: contentStringSecond,
-				  });
-
-			 var markerSecond = new google.maps.Marker({
-				  position: myLatlngSecond,
-				  map: map,
-				  title: 'Hello World!',
-				  icon: image
-			  });
-
-			 google.maps.event.addListener(markerSecond, 'click', function() {
-				infowindowSecond.open(map,markerSecond);
-			  });
-
-			 /* ========= End Second Marker ========= */
 		
 		})
 

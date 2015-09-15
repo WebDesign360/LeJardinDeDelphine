@@ -71,6 +71,23 @@
 		max-height: 70px;
 	}
 	
+/* Services */
+
+	#services{
+		background:url(../images_custom/Servizi.jpg) center center fixed;
+		padding:55px 0;
+		overflow: hidden;
+	}
+	
+/* Contact */
+
+	#contact{
+		background:#a7917b;
+		padding:10px 0 10px;
+	}
+	
+
+
 
 /* Footer */
 
@@ -85,4 +102,3 @@
 	.footer p.copyright a:hover{
 		color:white;
 	}
-
