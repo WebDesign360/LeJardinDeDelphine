@@ -82,9 +82,83 @@
 /* Contact */
 
 	#contact{
-		background:#a7917b;
+		background:#7D6C5C;
 		padding:10px 0 10px;
 	}
+	
+/* Contact Form */
+	.mail-message{
+		width: 100%;
+		background:rgba(255,255,255, 0.8) !important;
+		-webkit-transition: all 0.7s;
+		-moz-transition: all 0.7s;
+		transition: all 0.7s;
+		margin:0 auto;
+		border-radius: 0;
+	}
+	
+/* Input Styles */
+
+	.form{
+		width: 100%;
+		padding: 15px;
+		background:transparent;
+		border:1px solid rgba(255, 255, 255, 0.15);
+		margin-bottom:25px;
+		color:white !important;
+		font-size:13px;
+		-webkit-transition: all 0.4s;
+		-moz-transition: all 0.4s;
+		transition: all 0.4s;
+	}
+
+	.form:hover{
+		border:1px solid rgba(255, 255, 255, 0.3);
+	}
+
+	.form:focus{
+		color: white;
+		outline: none;
+		border:1px solid rgba(255, 255, 255, 0.6);
+	}
+	
+	/* Send Button Styles */
+
+	.form-btn{
+		width:100%;
+		display: block;
+		height: auto;
+		padding:15px;
+		color:white;
+		background:rgba(83, 83, 83, 0.15);
+		border:1px solid rgba(255, 255, 255, 0.15);
+		outline: none;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.form-btn:hover{
+		background:#3498db;
+		color: white;
+		border:1px solid #3498db;
+	}
+
+/* Place Holder Colors */
+
+	::-webkit-input-placeholder { /* WebKit browsers */
+		color:    white;
+	}
+	:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		color:    white;
+	}
+	::-moz-placeholder { /* Mozilla Firefox 19+ */
+		color:    white;
+	}
+	:-ms-input-placeholder { /* Internet Explorer 10+ */
+		color:    white;
+	}
+	
 	
 
 
